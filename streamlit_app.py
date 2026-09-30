@@ -30,7 +30,7 @@ from oracle_renamer.planner import build_plan
 from oracle_renamer.reader import ColumnNotFoundError, read_staff_rows
 from oracle_renamer.report import summarise, write_report
 
-st.set_page_config(page_title="Oracle → LASSRA Photo Renamer", page_icon="🪪", layout="wide")
+st.set_page_config(page_title="Oracle → LASSRA Photo Renamer", page_icon="", layout="wide")
 
 RUNS_ROOT = Path(tempfile.gettempdir()) / "oracle_renamer_runs"
 
